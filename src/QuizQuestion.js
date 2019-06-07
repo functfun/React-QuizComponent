@@ -18,4 +18,4 @@ class QuizQuestion extends Component{
      </main>
     )
   }
-export default QuizQuestion;
+export default QuizQuestion
