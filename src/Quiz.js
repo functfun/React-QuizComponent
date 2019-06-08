@@ -33,7 +33,7 @@ class Quiz extends Component {
     }
 
     render() {
-       const isQuizEnd =true
+       const isQuizEnd =true;
         return <div>
             <QuizQuestion showNextQuestionHandler={this.showNextQuestion.bind(this)} quiz_question={quizData.quiz_questions[this.state.quiz_position - 1]}/>
             {
